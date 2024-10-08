@@ -42,13 +42,13 @@ You can also use relational selectors (i.e., `firstElementChild` or `lastElement
 const container = document.querySelector("#container");
 
 // selects the first child of #container => .display
-console.dir(container.firstElementChild);
+const firstElementChild = container.firstElementChild;
 
 // selects the .controls div
 const controls = document.querySelector(".controls");
 
 // selects the prior sibling => .display
-console.dir(controls.previousElementSibling);
+const previousElementSibling = controls.previousElementSibling;
 ```
 
 So you're identifying a certain node based on its relationships to the nodes around it.
